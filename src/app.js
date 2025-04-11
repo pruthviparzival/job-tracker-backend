@@ -10,7 +10,7 @@ const app = express();
 // Configure CORS to allow credentials and specify your frontend origin
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your React app's URL
+    origin: "https://job-tracker-frontend-jet.vercel.app/", // Replace with your React app's URL
     credentials: true, // This is important for cookies
   })
 );
