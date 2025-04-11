@@ -22,5 +22,3 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/", indexRouter);
 
 export default app;
-
-// https://github.com/pruthviparzival/job-tracker-backend
